@@ -8,3 +8,7 @@ Rev 0.1 board doesnt have a revision number on the board and was the intial desi
 Rev 0.1 only has basic parts. no speaker pads included.
 
 Rev 0.2 will have the speaker pads. The USB holes will be relocated and the Flipper Zero plug will be flipped as I feel its upside down on Rev 0.2
+
+![front image](/images/front.jpg?raw=true)
+![back image](/images/back.jpg?raw=true)
+![installed image](/images/installed.jpg?raw=true)
