@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "upico")(type "KiCad")(uri "C:/Users/user/Downloads/upico-main/upico-main/pcb/upico.kicad_sym")(options "")(descr ""))
+)
