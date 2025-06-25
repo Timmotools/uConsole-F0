@@ -4439,6 +4439,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "uConsole to Flipper0\nmodule adaptor board\nHacked together by Timmotools\nRev 0.2"
+		(at 127.5 74.4 90)
+		(layer "F.SilkS")
+		(uuid "58b1ec49-d003-424d-a5db-60f567c9cdbb")
+		(effects
+			(font
+				(size 1.52 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "USB4"
 		(at 131.5 95.2 90)
 		(layer "F.SilkS")
