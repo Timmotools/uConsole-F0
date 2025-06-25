@@ -5,6 +5,153 @@
 	(uuid "ea56f06c-def0-4dd8-bf56-8d77a6fe9d2b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "@upico:uConsoleSpeaker"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "uConsoleSpeaker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "@upico:speaker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "uConsoleSpeaker_0_1"
+				(rectangle
+					(start -10.16 -1.27)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 3.5921)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "uConsoleSpeaker_1_1"
+				(pin bidirectional line
+					(at -15.24 -3.81 0)
+					(length 5.08)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -11.43 0)
+					(length 5.08)
+					(name "N1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "N2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -11.43 180)
+					(length 5.08)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -2363,6 +2510,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 115.57) (xy 209.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00643054-c50f-4b7b-9cac-c70f4d4de532")
+	)
+	(wire
+		(pts
+			(xy 48.26 33.02) (xy 54.61 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebd8f32-7f01-43ef-87e3-343b8a1f6153")
+	)
+	(wire
+		(pts
 			(xy 48.26 48.26) (xy 54.61 48.26)
 		)
 		(stroke
@@ -2453,6 +2620,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 123.19) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fc1015-d059-460f-b495-7509f6dabaac")
+	)
+	(wire
+		(pts
 			(xy 123.19 71.12) (xy 132.08 71.12)
 		)
 		(stroke
@@ -2513,6 +2690,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 35.56) (xy 54.61 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503cc96a-5918-4426-88e5-efe1bdc6c00e")
+	)
+	(wire
+		(pts
 			(xy 34.29 63.5) (xy 54.61 63.5)
 		)
 		(stroke
@@ -2560,6 +2747,16 @@
 			(type default)
 		)
 		(uuid "751e2cb4-0544-4bb3-a87a-e85f4ac55666")
+	)
+	(wire
+		(pts
+			(xy 245.11 115.57) (xy 240.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa722f5-9f60-4731-9d11-de62b8bec25d")
 	)
 	(wire
 		(pts
@@ -2623,6 +2820,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 115.57) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8855be7e-d6c8-41bc-be41-2831c20656ce")
+	)
+	(wire
+		(pts
 			(xy 48.26 40.64) (xy 54.61 40.64)
 		)
 		(stroke
@@ -2630,6 +2837,16 @@
 			(type default)
 		)
 		(uuid "8af1fce8-40a5-49e0-b7d0-ece4529b1068")
+	)
+	(wire
+		(pts
+			(xy 245.11 123.19) (xy 240.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1a1af8-11a0-4ac5-bed1-3283b4e1b7b5")
 	)
 	(wire
 		(pts
@@ -2743,6 +2960,56 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 123.19) (xy 143.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebdce5f-e6f1-4c9d-8d23-6d323f12e001")
+	)
+	(wire
+		(pts
+			(xy 204.47 123.19) (xy 209.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf93fdd2-aba6-4ab2-9bd4-48bcdaaa740f")
+	)
+	(wire
+		(pts
+			(xy 179.07 115.57) (xy 173.99 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a8d320-30ea-4c8d-ab25-bca5c79ba126")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ad78b3-e1a2-4452-8679-4cda692e9620")
+	)
+	(wire
+		(pts
+			(xy 87.63 48.26) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d907f4e9-2940-4065-9154-d0c5d67cb12a")
+	)
+	(wire
+		(pts
 			(xy 34.29 101.6) (xy 54.61 101.6)
 		)
 		(stroke
@@ -2790,6 +3057,50 @@
 			(type default)
 		)
 		(uuid "fb2c5ecd-7193-45c9-9340-75dc831cd7f0")
+	)
+	(global_label "SKP_LN"
+		(shape input)
+		(at 179.07 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0512f03f-5ed4-4b3e-a12b-c1d2f2e3a383")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.1309 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SKP_RN"
+		(shape input)
+		(at 204.47 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b60a333-3110-4b3e-b86a-35cd41fc400b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1672 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB3_DN"
 		(shape input)
@@ -2923,6 +3234,50 @@
 			)
 		)
 	)
+	(global_label "SKP_LN"
+		(shape input)
+		(at 138.43 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3516483c-64ee-4291-b055-6b33f3a4ae3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.3691 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SKP_RN"
+		(shape input)
+		(at 245.11 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35733a46-bf79-4541-bc73-08e8a8b46b6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.4128 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_CE1"
 		(shape input)
 		(at 132.08 43.18 180)
@@ -2936,6 +3291,28 @@
 		(uuid "36aa7442-abb9-458c-8ff5-ee643046c154")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.4144 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_LP"
+		(shape input)
+		(at 138.43 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40cfa80a-9911-4a52-8061-430b985f69e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.4296 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,6 +3362,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_LP"
+		(shape input)
+		(at 179.07 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ddbe254-e035-4ee1-8ce2-668c737854e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0704 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3121,6 +3520,28 @@
 			)
 		)
 	)
+	(global_label "SKP_RN"
+		(shape input)
+		(at 90.17 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80c325e7-bbe4-4573-a9c6-67efabf7f00f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.4728 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB4_DN"
 		(shape bidirectional)
 		(at 100.33 125.73 180)
@@ -3187,6 +3608,28 @@
 			)
 		)
 	)
+	(global_label "SPK_RP"
+		(shape input)
+		(at 204.47 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97e096d0-6af4-4047-aa42-23a760dbf9c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.2277 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO34"
 		(shape input)
 		(at 87.63 73.66 0)
@@ -3231,6 +3674,28 @@
 			)
 		)
 	)
+	(global_label "SPK_LP"
+		(shape input)
+		(at 48.26 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3d98d52-6de9-48ca-a9c5-f10200316d90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2596 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB4_DP"
 		(shape input)
 		(at 48.26 48.26 180)
@@ -3249,6 +3714,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_RP"
+		(shape input)
+		(at 245.11 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aca3e547-c470-49ec-8523-e959b83d2797")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.3523 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3293,6 +3780,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SKP_LN"
+		(shape input)
+		(at 48.26 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b77380a5-d681-44ea-b741-755e888f55ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1991 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3530,6 +4039,28 @@
 		(uuid "efac5b4f-9c63-46b3-a09f-52384037027c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.5095 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_RP"
+		(shape input)
+		(at 90.17 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f30097b6-7c75-46cd-9ecc-043f93960e8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.4123 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,6 +4948,80 @@
 		)
 	)
 	(symbol
+		(lib_id "@upico:uConsoleSpeaker")
+		(at 158.75 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "747618b7-9e94-45ed-9778-3cb9b416e6ab")
+		(property "Reference" "J6"
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "uConsoleSpeaker"
+			(at 158.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "@upico:speaker"
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3dbdfd4-8174-4da9-bc9c-6d92f7a4a4c4")
+		)
+		(pin "2"
+			(uuid "30ef1c8a-4ff8-4180-97e3-ce701242b942")
+		)
+		(pin "3"
+			(uuid "36578eb4-c68d-4475-9bf9-5b34f059733e")
+		)
+		(pin "4"
+			(uuid "6398047a-37f2-4ed7-b468-6bca2bb1232d")
+		)
+		(instances
+			(project "F0-uConsole"
+				(path "/ea56f06c-def0-4dd8-bf56-8d77a6fe9d2b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 71.12 123.19 0)
 		(unit 1)
@@ -4696,6 +5301,80 @@
 			(project "F0-uConsole"
 				(path "/ea56f06c-def0-4dd8-bf56-8d77a6fe9d2b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "@upico:uConsoleSpeaker")
+		(at 224.79 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d03a5cdf-4abc-40e0-a851-750e01332664")
+		(property "Reference" "J6"
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "uConsoleSpeaker"
+			(at 224.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "@upico:speaker"
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a84be58-8924-4399-ba5e-18197bd4a3c1")
+		)
+		(pin "2"
+			(uuid "fd8b8ba8-8556-442a-8f41-d8045f669623")
+		)
+		(pin "3"
+			(uuid "c5558e15-257d-4cba-913c-dab7d8a7c47f")
+		)
+		(pin "4"
+			(uuid "17d22a49-b92c-43cc-9b7c-efa0dc66a3b9")
+		)
+		(instances
+			(project "F0-uConsole"
+				(path "/ea56f06c-def0-4dd8-bf56-8d77a6fe9d2b"
+					(reference "J6")
 					(unit 1)
 				)
 			)
